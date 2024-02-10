@@ -1,0 +1,53 @@
+/*
+.img{
+width: 10;
+height: 50px;
+}
+*/
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: dashed;
+    color: #333;
+}
+
+section {
+    padding: 20px;
+}
+
+#img-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+#akarmi {
+    background-color: blueviolet;
+}
